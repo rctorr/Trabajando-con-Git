@@ -42,27 +42,9 @@ Al completar este curso, habrás adquirido los conocimientos y habilidades neces
 - [**Módulo 6: Servicios de hosting y autenticación**](modulo_06.md)
 - [**Módulo 7: Creación y envío a un repositorio remoto**](modulo_07.md)
 - [**Módulo 8: Clonación y obtención de cambios (Fetching)**](modulo_08.md)
-
-**Módulo 9: Fusiones de tres vías**
-
-* Importancia y configuración de fusiones de tres vías.
-* Manejo de archivos modificados y colaboración.
-
-**Módulo 10: Conflictos de fusión**
-
-* Introducción a conflictos de fusión y resolución de los mismos.
-* Proceso y práctica de resolución de conflictos.
-
-**Módulo 11: Rebase**
-
-* Integración de cambios y uso de rebase.
-* Proceso de rebase, resolución de conflictos y sincronización de repositorios.
-
-**Módulo 12: Pull requests (Merge requests)**
-
-* Introducción a pull requests y su uso en servicios de hosting.
-* Creación, revisión y fusión de pull requests.
-* Limpieza y sincronización de repositorios.
+- [**Módulo 9: Fusiones de tres vías**](modulo_09.md)
+- [**Módulo 10: Rebase**](modulo_10.md)
+- [**Módulo 12: Pull requests (Merge requests)**](modulo_10.md)
 
 
 **Repositorio:**

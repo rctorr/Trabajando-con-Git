@@ -95,12 +95,11 @@ El código HTML del pié de página quedaría de la siguiente forma:
 
 ![git status](media/modulo_08/git-status-1.png)
 
-**Paso 7: Enviar los cambios (`git push origin pie-de-index`):**  Envía tus cambios a la rama remota `origin/pie-de-index` en `web-prj-remote`:
+**Paso 8: Enviar los cambios (`git push origin pie-de-index`):**  Envía tus cambios a la rama remota `origin/pie-de-index` en `web-prj-remote`:
 
 ```bash
 git push origin pie-de-index
 ```
-
 
 ### 8.2 Incorporación de Cambios y Borrado de Ramas: ¡Sincronización y Limpieza!
 
@@ -111,7 +110,6 @@ Después de clonar un repositorio, es posible que haya cambios nuevos en el repo
 
 **Paso 0: Preparación:**  Debes tener tu terminal abierta en el directorio `web-prj`.  Recuerda que  `web-prj` es la carpeta original del proyecto y que has hecho un nuevo commit en la rama `pie-de-index` desde el proyecto de la carpeta `web-prj-copia`.
 
-
 **Paso 1: Obtener cambios remotos (`git fetch`):**  Descarga los últimos cambios del repositorio remoto:
 
 ```bash
@@ -120,7 +118,6 @@ git fetch origin
 
 **Paso 2: Verificar cambios (`git log` y `git branch -a`):**  Utiliza `git log` y `git branch -a` para ver el estado del repositorio local.  Observa que la rama `origin/pie-de-index` ahora apunta al nuevo commit, mientras que la rama local `pie-de-index` no lo hace.
 
-
 **Paso 3: Fusionar cambios (`git merge`):**  Integra los cambios en la rama local `pie-de-index`:
 
 ```bash
@@ -128,7 +125,6 @@ git merge origin/pie-de-index
 ```
 
 Si es una fusión *fast-forward*, la rama `pie-de-index` local se actualizará directamente. De lo contrario, se creará un nuevo commit de fusión.
-
 
 **Paso 4: Verificar el resultado (`git log`):**  Confirma que tu rama `pie-de-index` local esté actualizada usando `git log`.
 
